@@ -19,13 +19,14 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Test1 {
 	WebDriver driver;
-	String b = "firefox";
+	//String b = "firefox";
+	private String BROWSER=System.getProperty("browser");
 	String url= "https://fr.wowhead.com";
 	
 	@Before
 	public void setUp() {
 		System.out.println("\n@Before");
-		driver= Outils.choisirNavigateur(b);
+		driver= Outils.choisirNavigateur(BROWSER);
 		driver.manage().window().maximize();
 		driver.get(url);
 	}
