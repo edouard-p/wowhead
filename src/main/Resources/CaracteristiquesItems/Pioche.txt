@@ -1,0 +1,9 @@
+Pioche en fer glacial
+Niveau d'objet 17
+Hache
+Dégâts : 27 - 41
++2 Endurance
++4 Esprit
+12
+23
+
